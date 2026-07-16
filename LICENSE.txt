@@ -1,0 +1,54 @@
+Plix License v1.0 (PLi v1.0)
+
+Preamble
+The Plix License v1.0 (PLi v1.0) is a hardware-reciprocal, permissive open-source license. It is designed to grant maximum software freedom—allowing anyone to modify, distribute, and commercially exploit the software without forcing them to share their modified source code—while protecting user hardware autonomy and the Right to Repair. Under this License, distributors are free to keep their software modifications proprietary. However, if the Software is distributed as system-level firmware or primary operating software pre-installed on a hardware device, the distributor must ensure that end-users possess the technical capability and instructions to install and run their own builds of the Software on that device.
+
+§ 1. Definitions
+"Software" means the original work of authorship distributed under this License, as well as any modified versions or derivative works created by You.
+
+"Hardware Device" means any physical product, system, or hardware platform on which the Software is pre-installed, embedded, or with which it is supplied for operation.
+
+"System Software" means Software that acts as the operating system, bootloader, system-level firmware, or primary control software without which the Hardware Device cannot perform its core functions. This includes any software components or single-purpose execution environments that are pre-installed and tightly integrated with the hardware's primary operation, regardless of whether they run on top of an underlying operating system, provided the Hardware Device is primarily designed or marketed to run that specific Software.
+
+"Installation Information" means clear, complete, and step-by-step technical documentation, methods, authorization procedures, or mechanisms required to install, execute, and run modified versions of the Software on the Hardware Device. 
+Note: This term explicitly does not require the disclosure, transfer, or compromise of any private cryptographic keys, master keys, or secrets held by the manufacturer or third parties. It is sufficient if the Hardware Device provides a mechanism (e.g., an unlockable bootloader, a user-key enrollment interface, or a developer mode) that allows the execution of user-signed or unsigned code.
+
+"You" (or "Your") means an individual or legal entity exercising permissions granted by this License.
+
+§ 2. Grant of Rights
+Software License: Subject to the terms and conditions of this License, You are hereby granted a worldwide, royalty-free, non-exclusive, perpetual, irrevocable license to use, copy, modify, merge, publish, distribute, sublicense, and sell the Software (including as part of larger, proprietary works) for any purpose, commercial or non-commercial.
+
+Patent License: Subject to the terms and conditions of this License, each contributor hereby grants to You a worldwide, royalty-free, non-exclusive, perpetual, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Software, where such license applies only to those patent claims licensable by such contributor that are necessarily infringed by their contribution(s) alone or by combination of their contribution(s) with the Software.
+
+§ 3. Distribution & Hardware Freedom Obligations
+If You distribute the Software to third parties, You are subject only to the following conditions:
+
+3.1 Hardware Freedom (The "Anti-Tivoization" Rule)
+If You distribute the Software pre-installed on, or in conjunction with, a Hardware Device as System Software, You must provide the end-user with clear and comprehensive Installation Information to allow them to execute and run their own compiled version of the Software on that specific Hardware Device.
+You are prohibited from implementing technological measures—including, but not limited to, permanently locked bootloaders, hardware-enforced cryptographic blocks, or digital rights management (DRM) restrictions—that permanently prevent the user from executing these installation procedures or running their own compiled versions of the Software.
+
+3.2 Exception for Application Software
+The obligations under § 3.1 do not apply if the Software is distributed as a mere application, widget, or non-system component running on top of a general-purpose, third-party operating system, provided that:
+(a) the Hardware Device is designed to run arbitrary, user-installable third-party applications (such as a general-purpose PC, smartphone, or tablet);
+(b) the Software can be easily installed, updated, or removed by the end-user using standard user-level permissions; and
+(c) the physical Hardware Device remains fully functional in its core capacity even if the Software is uninstalled or replaced with an alternative application.
+
+3.3 Legal and Regulatory Compliance Exception
+The obligations under § 3.1 shall not apply to the extent that complying with them would directly violate applicable local, national, or international laws, government regulations, or safety standards mandatory for the certification and operation of the Hardware Device (including, but not limited to, medical device regulations, automotive safety standards, or telecommunications/radio frequency regulations).
+
+3.4 No Software Copyleft
+You are not required to make the source code of Your modifications, derivatives, or larger works publicly available. The code of Your proprietary additions remains entirely Yours.
+
+3.5 License Preservation
+You must include a copy of this Plix License v1.0 (PLi v1.0) and its original copyright notices in all copies or substantial portions of the Software distributed by You. This license text and copyright notices must be provided either as a text file in the source distribution, or within the accompanying documentation or user interface of the Hardware Device.
+
+§ 4. Compatibility & Sublicensing
+Sublicensing: You may sublicense the Software under any terms of Your choosing (including proprietary, closed-source licenses), provided that the sublicense does not alter, restrict, or attempt to override the hardware-flashing and installation requirements defined in § 3.1 for any end-user of a Hardware Device.
+
+Coexistence: If the Software is combined, linked, or integrated with code components governed by other permissive licenses (such as MIT, Apache 2.0, or BSD), those components shall remain governed by their respective licenses, and this License shall continue to apply exclusively to the Software and its derivatives.
+
+§ 5. Hardware Warranty Disclaimer
+Distributors and manufacturers of a Hardware Device may explicitly exclude, limit, or void any voluntary hardware warranties, commercial guarantees, liability for data loss, or technical support obligations for the physical Hardware Device if damage, malfunction, safety risks, or regulatory non-compliance are caused by the user installing, flashing, or running modified versions of the Software.
+
+§ 6. Disclaimer of Software Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
