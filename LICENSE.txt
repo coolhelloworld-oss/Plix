@@ -1,3 +1,5 @@
+Copyright (c) 2026 Robin Ari Hanazay
+
 Plix License v1.0 (PLi v1.0)
 
 Preamble
