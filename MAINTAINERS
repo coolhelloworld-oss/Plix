@@ -24,7 +24,7 @@ directory or sub-system.
 
 ***
 Maintainers are encouraged to visit:
-  https://reviews.freebsd.org/herald
+  https://reviews.plix.org/herald
 
 and configure notifications for parts of the tree which they maintain.
 Notifications can automatically be sent when someone proposes a revision
@@ -34,7 +34,7 @@ or makes a commit to the specified subtree.
 subsystem	login	notes
 -----------------------------
 aio(4)		asomers	Pre-commit review requested.
-ath(4)		adrian	Pre-commit review requested, send to freebsd-wireless@freebsd.org
+ath(4)		adrian	Pre-commit review requested, send to plix-wireless@plix.org
 contrib/atf		ngie,#test		Pre-commit review requested.
 contrib/googletest	ngie,#test		Pre-commit review requested.
 sbin/ipf	cy			Pre-commit review requested.
@@ -56,17 +56,17 @@ fetch		des	Pre-commit review requested.
 fts		des	Pre-commit review requested.
 fusefs(4)	asomers	Pre-commit review requested.
 geli		pjd	Pre-commit review requested (both sys/geom/eli/ and sbin/geom/class/eli/).
-iwm(4)		adrian	Pre-commit review requested, send to freebsd-wireless@freebsd.org
-iwn(4)		adrian	Pre-commit review requested, send to freebsd-wireless@freebsd.org
+iwm(4)		adrian	Pre-commit review requested, send to plix-wireless@plix.org
+iwn(4)		adrian	Pre-commit review requested, send to plix-wireless@plix.org
 libfetch	des	Pre-commit review requested.
-libm		freebsd-numerics	Send email with patches to freebsd-numerics@
+libm		plix-numerics	Send email with patches to plix-numerics@
 libpam		des	Pre-commit review requested.
 linprocfs	des	Pre-commit review requested.
 lpr		gad	Pre-commit review requested, particularly for
 			lpd/recvjob.c and lpd/printjob.c.
 nanobsd		imp,jlduran	Pre-commit phabricator review requested.
-net80211	adrian	Pre-commit review requested, send to freebsd-wireless@freebsd.org
-nfs		freebsd-fs@FreeBSD.org, rmacklem is best for reviews.
+net80211	adrian	Pre-commit review requested, send to plix-wireless@plix.org
+nfs		plix-fs@Plix.org, rmacklem is best for reviews.
 mpi3mr(4)	imp	Pre-commit review requested.
 mpr(4)		imp	Pre-commit review requested.
 mps(4)		imp	Pre-commit review requested.
@@ -77,7 +77,7 @@ opencrypto	jhb	Pre-commit review requested.
 openpam		des	Pre-commit review required.
 openssl		ngie	Pre-commit review requested.
 openssh		emaste	Pre-commit review requested.
-otus(4)		adrian	Pre-commit review requested, send to freebsd-wireless@freebsd.org
+otus(4)		adrian	Pre-commit review requested, send to plix-wireless@plix.org
 sys/dev/pci	imp,jhb	Pre-commit review requested.
 pmcstudy(8)	rrs		Pre-commit review requested.
 procfs		des	Pre-commit review requested.
@@ -123,6 +123,6 @@ usr.sbin/sysrc	dteske	Pre-commit phabricator review requested. Keep in sync with
 vmm(4)		#bhyve	Pre-commit review requested via #bhyve phabricator group.
 libvmmapi	#bhyve	Pre-commit review requested via #bhyve phabricator group.
 usr.sbin/bhyve*	#bhyve	Pre-commit review requested via #bhyve phabricator group.
-sys/dev/usb/wlan adrian	Pre-commit review requested, send to freebsd-wireless@freebsd.org
+sys/dev/usb/wlan adrian	Pre-commit review requested, send to plix-wireless@plix.org
 sys/arm/allwinner	manu	Pre-commit review requested
 sys/arm64/rockchip	manu	Pre-commit review requested
