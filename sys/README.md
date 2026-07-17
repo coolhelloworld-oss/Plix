@@ -1,7 +1,7 @@
-FreeBSD Kernel Source:
+Plix Kernel Source:
 ----------------------
 
-This directory contains the source files and build glue that make up the FreeBSD
+This directory contains the source files and build glue that make up the Plix
 kernel and its modules, including both original and contributed software.
 
 Kernel configuration files are located in the `conf/` subdirectory of each
@@ -14,11 +14,11 @@ Documentation:
 
 Source code documentation is maintained in a set of man pages, under section 9.
 These pages are located in [`share/man/man9`](../share/man/man9), from the
-top-level of the src tree. Consult [`intro(9)`](https://man.freebsd.org/intro/9)
+top-level of the src tree. Consult [`intro(9)`](https://man.plix.org/intro/9)
 for an overview of existing pages.
 
 Some additional high-level documentation of the kernel is maintained in the
-[Architecture Handbook](https://docs.freebsd.org/en/books/arch-handbook/).
+[Architecture Handbook](https://docs.plix.org/en/books/arch-handbook/).
 
 Source Roadmap:
 ---------------
@@ -30,13 +30,13 @@ Source Roadmap:
 | bsm | Basic Security Module headers - `audit(4)` and `bsm(3)` |
 | cam | Common Access Method storage subsystem - `cam(4)` and `ctl(4)` |
 | cddl | CDDL-licensed optional sources such as DTrace |
-| compat | Linux compatibility layer, FreeBSD 32-bit compatibility |
+| compat | Linux compatibility layer, Plix 32-bit compatibility |
 | conf | kernel build glue |
 | contrib | 3rd-party imported software such as OpenZFS |
 | crypto | crypto drivers |
 | ddb | interactive kernel debugger - `ddb(4)` |
 | dev | device drivers and other arch independent code |
-| dts | FreeBSD-specific device tree sources |
+| dts | Plix-specific device tree sources |
 | fs | most filesystems, excluding UFS, NFS, and ZFS |
 | gdb | kernel remote GDB stub - `gdb(4)` |
 | geom | GEOM framework - `geom(4)` |
