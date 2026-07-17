@@ -13,7 +13,7 @@ SUBDIR= cat \
 	echo \
 	ed \
 	expr \
-	freebsd-version \
+	plix-version \
 	getfacl \
 	hostname \
 	kenv \
